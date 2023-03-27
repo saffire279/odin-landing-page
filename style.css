@@ -1,0 +1,77 @@
+p, h1, h5, h2, a, .header-logo, button{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    padding: 8px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text, .header-link, .footer-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button, .cta-content {
+    background-color: #3882F6;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-credit {
+    font-weight: 800;
+}
+
+.header {
+    display: flex;
+}
+
+.header-links {
+    margin-left: auto;
+}
+
+.header-link {
+    gap: 50px;
+}
